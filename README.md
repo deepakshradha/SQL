@@ -1,1 +1,1 @@
- # This my SQL project repo which include following project :- 
+ # This is my SQL project repo which include following project :- 
