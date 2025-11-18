@@ -1,4 +1,4 @@
-📘 GOLD LAYER DATA DICTIONARY (Data Catalog)
+##📘 GOLD LAYER DATA DICTIONARY (Data Catalog)
 Included Tables:
 
 dim_customer
@@ -8,13 +8,12 @@ dim_product
 fact_sales
 
 
-🟦 1. dim_customer
+##🟦 1. dim_customer
 📌 Table Purpose
 
 dim_customer stores the master customer information used for analytics.
 It provides cleaned, standardized customer attributes that allow analysts to slice sales data by customer name, segment, city, and other characteristics
 
-## Dim_Customer – Data Dictionary
 
 | Column Name       | Data Type     | Description |
 |-------------------|---------------|-------------|
@@ -31,13 +30,11 @@ It provides cleaned, standardized customer attributes that allow analysts to sli
 
 
 
-🟦 2. dim_product
+## 🟦 2. dim_product
 📌 Table Purpose
 
 dim_product stores product-related information that describes each item sold.
 It ensures consistent product naming, categorization, and pricing across the warehouse.
-
-## Dim_Product – Data Dictionary
 
 | Column Name             | Data Type      | Description |
 |-------------------------|----------------|-------------|
@@ -54,13 +51,12 @@ It ensures consistent product naming, categorization, and pricing across the war
 | maintenance             | NVARCHAR(50)   | Maintenance status (e.g., YES, NO). |
 
 
-🟦 3. fact_sales
+## 🟦 3. fact_sales
 📌 Table Purpose
 
 fact_sales contains transaction-level sales data, recording each order and items sold.
 It integrates keys from DIM_CUSTOMER and DIM_PRODUCT to enable deep business analysis.
 
-## Fact_Sales – Data Dictionary
 
 | Column Name         | Data Type      | Description |
 |---------------------|----------------|-------------|
