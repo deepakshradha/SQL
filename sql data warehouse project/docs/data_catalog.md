@@ -1,4 +1,4 @@
-##📘 GOLD LAYER DATA DICTIONARY (Data Catalog)
+## 📘 GOLD LAYER DATA DICTIONARY (Data Catalog)
 Included Tables:
 
 dim_customer
@@ -8,7 +8,7 @@ dim_product
 fact_sales
 
 
-##🟦 1. dim_customer
+## 🟦 1. dim_customer
 📌 Table Purpose
 
 dim_customer stores the master customer information used for analytics.
