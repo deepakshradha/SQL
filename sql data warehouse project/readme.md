@@ -44,7 +44,7 @@ These are used to filter, group, and segment the data in reports.
 
 * `Data Mart(star_schema)` ![alt text](https://github.com/deepakshradha/SQL/blob/main/sql%20data%20warehouse%20project/docs/Data%20Mart.drawio.png)
 
- * `Intregation Model` ![alt text](https://github.com/deepakshradha/SQL/blob/main/sql%20data%20warehouse%20project/docs/integration%20model.drawio.png) 
+* `Intregation Model` ![alt text](https://github.com/deepakshradha/SQL/blob/main/sql%20data%20warehouse%20project/docs/integration%20model.drawio.png) 
   
 
 
