@@ -21,7 +21,7 @@ The project utilizes a layered data architecture to ensure data quality, traceab
 | **Silver (Cleansed)** | Standardization | Cleaned, validated, structured data  | Deduplication, type fixes, normalization       |
 | **Gold (Analytical)** | Business-Ready  | Star Schema: Fact & Dimension tables | Fact creation, dimension loading, aggregations |
 
-* `Data_architechture` ![alt text](https://github.com/deepakshradha/Power-Bi/blob/main/Business%20Analysis%20360/Screenshot%20Of%20Dashboard/Home%20View.jpeg?raw=true)
+* `Data_architechture` ![alt text](https://github.com/deepakshradha/SQL/blob/main/sql%20data%20warehouse%20project/docs/data_architecture.drawio.png)
 
 
 ## ⭐️ Data Modeling: Star Schema
