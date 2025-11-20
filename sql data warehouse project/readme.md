@@ -21,6 +21,8 @@ The project utilizes a layered data architecture to ensure data quality, traceab
 | **Silver (Cleansed)** | Standardization | Cleaned, validated, structured data  | Deduplication, type fixes, normalization       |
 | **Gold (Analytical)** | Business-Ready  | Star Schema: Fact & Dimension tables | Fact creation, dimension loading, aggregations |
 
+* `Data_architechture` ![alt text](https://github.com/deepakshradha/Power-Bi/blob/main/Business%20Analysis%20360/Screenshot%20Of%20Dashboard/Home%20View.jpeg?raw=true)
+
 
 ## ⭐️ Data Modeling: Star Schema
 
@@ -70,16 +72,16 @@ Fact Loading: Creating the final FactSales table by performing lookups and joins
 The repository is organized to clearly separate raw data, scripts, tests and documentation.
 
 sql-data-warehouse-project/
-├── datasets/             # Raw CSV files from source systems (ERP, CRM)
-├── scripts/              # All SQL scripts for ETL, schema creation, and analytics
+├── datasets/                           # Raw CSV files (ERP & CRM)
+├── scripts/                            # End-to-end SQL ETL scripts
 │   ├── 01_schema_setup.sql
 │   ├── 02_bronze_ingestion.sql
 │   ├── 03_silver_cleansing.sql
 │   ├── 04_gold_dimensions.sql
 │   └── 05_gold_facts_and_analytics.sql
-└── test/                 # Checking the data cleaniness of silver layer 
-└── docs/                 # Documentation, including data model diagrams and architecture flow
-└── README.md             # This file
+├── docs/                               # Architecture diagrams & documentation
+└── README.md                           # Project overview
+
 
 
  ## 📊 Business Insights (Analytical Queries)
