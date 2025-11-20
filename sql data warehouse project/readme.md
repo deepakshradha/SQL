@@ -71,6 +71,7 @@ Fact Loading: Creating the final FactSales table by performing lookups and joins
 
 The repository is organized to clearly separate raw data, scripts, tests and documentation.
 
+```
 sql-data-warehouse-project/
 ├── datasets/                           # Raw CSV files (ERP & CRM)
 ├── scripts/                            # End-to-end SQL ETL scripts
@@ -82,7 +83,7 @@ sql-data-warehouse-project/
 ├── docs/                               # Architecture diagrams & documentation
 └── README.md                           # Project overview
 
-
+```
 
  ## 📊 Business Insights (Analytical Queries)
 
