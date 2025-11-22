@@ -1,4 +1,4 @@
-## 🧱 SQL Data Warehouse 
+## 🧱 SQL Data Warehouse & Analysis 
 
 This project focused on designing and implementing a modern data warehouse using SQL and a Star Schema model. The goal is to consolidate operational data from multiple source systems (ERP and CRM) into an optimized, business-ready format for high-performance analytical queries and reporting.
 
