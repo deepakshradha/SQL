@@ -102,6 +102,7 @@ sql-data-warehouse-project/
 
 This section presents the business analysis layer of the project, executed within the scripts/data-analysis/ directory.
 After building the Data Warehouse, these SQL scripts transform the curated tables into actionable business reports, enabling insights for decision-making.
+
 To generate ready-to-use analytical views directly inside the Data Warehouse (Gold Layer), focusing on:
 
 - Customer behavior analysis
@@ -109,6 +110,22 @@ To generate ready-to-use analytical views directly inside the Data Warehouse (Go
 - Product performance evaluation
 
 - KPI computation for stakeholders
+
+##  📘 Customer Report — Summary Table
+
+| **Category**             | **Details**                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Script File**          | `data_analysis_customer_report.sql`                                                                                                                                                                                                                                                                                                          |
+| **Output View**          | `gold.report_customer`                                                                                                                                                                                                                                                                                                                       |
+| **Purpose**              | Create a 360° analytical customer view with behavior, segmentation & KPIs.                                                                                                                                                                                                                                                                   |
+| **What the Script Does** | ✔ Extracts customer + sales data<br>✔ Calculates customer age<br>✔ Aggregates lifetime metrics<br>✔ Computes KPIs:<br>• Total Orders<br>• Total Sales<br>• Total Quantity Purchased<br>• Total Products Purchased<br>• Recency (months since last purchase)<br>• Lifespan (months)<br>• Average Order Value (AOV)<br>• Average Monthly Spend |
+| **Segmentation Logic**   | • **VIP** / **Regular** / **New Customer**<br>• **Senior Citizen** / **Working Citizen** / **Adolescent/Kid**                                                                                                                                                                                                                                |
+| **Final Output**         | A ready-to-query view for dashboards and analytics.                                                                                                                                                                                                                                                                                          |
+
+
+
+
+##  📗 Product Report — Summary Table
 
 | **Category**             | **Details**                                                                                                                                                                                                                                                                                                         |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
