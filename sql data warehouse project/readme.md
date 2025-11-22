@@ -87,20 +87,44 @@ sql-data-warehouse-project/
 │   ├── 03_silver_cleansing.sql
 │   ├── 04_gold_dimensions.sql
 │   └── 05_gold_facts_and_analytics.sql
+    └── data analysis/
+        ├── data_analysis_customer_report.sql
+        ├── data_analysis_product_report.sql
 ├── tests/                               # Check the data cleaniness of silver layer
 ├── docs/                               # Architecture diagrams & documentation
 └── README.md                           # Project overview
+
+ 
 
 ```
 
  ## 📊 Business Insights (Analytical Queries)
 
-The data warehouse can enables efficient execution of complex analytical queries to derive actionable business intelligence, including:
+This section presents the business analysis layer of the project, executed within the scripts/data-analysis/ directory.
+After building the Data Warehouse, these SQL scripts transform the curated tables into actionable business reports, enabling insights for decision-making.
+To generate ready-to-use analytical views directly inside the Data Warehouse (Gold Layer), focusing on:
 
-Sales Performance: Calculating Monthly/Quarterly/Annual Sales, Year-Over-Year Growth.
+- Customer behavior analysis
 
-Customer Segmentation: Identifying Top N customers by revenue, average order value (AOV).
+- Product performance evaluation
 
-Product Analysis: Determining top-selling products, products with the highest profit margin, and inventory turnover.
+- KPI computation for stakeholders
 
-Time-Based Analysis: Analyzing sales trends using window functions (e.g., running totals and moving averages).
+| **Category**             | **Details**                                                                                                                                                                                                                                                                                                         |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Script File**          | `data_analysis_product_report.sql`                                                                                                                                                                                                                                                                                  |
+| **Output View**          | `gold.report_product`                                                                                                                                                                                                                                                                                               |
+| **Purpose**              | Provide product-level performance insights for business & analytics teams.                                                                                                                                                                                                                                          |
+| **What the Script Does** | ✔ Retrieves product & fact table data<br>✔ Summarizes key performance metrics:<br>• Total Orders<br>• Revenue<br>• Total Quantity Sold<br>• Unique Consumers<br>• Product Lifespan (months)<br>• Recency (months since last sale)<br>✔ Computes KPIs:<br>• Average Order Revenue (AOR)<br>• Average Monthly Revenue |
+| **Segmentation Logic**   | • **High-Performer**<br>• **Mid-Performer**<br>• **Low-Performer**                                                                                                                                                                                                                                                  |
+| **Final Output**         | A ready-to-query view supporting product analytics and revenue dashboards.                                                                                                                                                                                                                                          |
+
+These reports can now be used directly in:
+
+Power BI
+
+Tableau
+
+Excel
+
+Any BI layer or API extraction
