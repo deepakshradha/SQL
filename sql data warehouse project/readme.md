@@ -138,10 +138,17 @@ To generate ready-to-use analytical views directly inside the Data Warehouse (Go
 
 These reports can now be used directly in:
 
-Power BI
+- Power BI
 
-Tableau
+- Tableau
 
-Excel
+- Excel
 
-Any BI layer or API extraction
+## 🏁 Conclusion
+
+This project demonstrates a complete, end-to-end implementation of a modern SQL-based Data Warehouse, following best practices in data modeling, ETL/ELT orchestration, and analytical reporting.
+By leveraging the Medallion Architecture and a Star Schema model, the system ensures data quality, reliability, and scalability across all layers—from raw ingestion to business-ready facts and dimensions.
+
+The analytical SQL scripts further extend the value of the warehouse by generating ready-to-use customer and product insights directly in the Gold Layer. These curated views (gold.report_customer and gold.report_product) provide powerful, actionable intelligence for business teams, enabling deeper analysis of customer behavior, product performance, and revenue-driving trends.
+
+Together, the Data Warehouse and analytical views establish a solid foundation for BI tools such as Power BI, Tableau, and Excel, enabling organizations to build interactive dashboards, monitor KPIs, and make informed, data-driven decisions with confidence.
