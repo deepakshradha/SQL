@@ -21,7 +21,7 @@ The project utilizes a layered data architecture to ensure data quality, traceab
 | **Silver (Cleansed)** | Standardization | Cleaned, validated, structured data  | Deduplication, type fixes, normalization       |
 | **Gold (Analytical)** | Business-Ready  | Star Schema: Fact & Dimension tables | Fact creation, dimension loading, aggregations |
 
-* `Data_architechture` ![alt text](https://github.com/deepakshradha/SQL/blob/main/sql%20data%20warehouse%20project/docs/data_architecture.drawio.png)
+* `Data_architechture` ![alt text](https://github.com/deepakshradha/SQL/blob/main/SQL%20Data%20Warehouse%20%26%20Analysis/docs/data_architecture.drawio.png)
 
 * `Data Flow` ![alt text](https://github.com/deepakshradha/SQL/blob/main/sql%20data%20warehouse%20project/docs/data%20flow%20diagram.drawio.png)
 
