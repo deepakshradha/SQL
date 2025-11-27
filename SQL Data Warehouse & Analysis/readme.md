@@ -23,7 +23,7 @@ The project utilizes a layered data architecture to ensure data quality, traceab
 
 * `Data_architechture` ![alt text](https://github.com/deepakshradha/SQL/blob/main/SQL%20Data%20Warehouse%20%26%20Analysis/docs/data_architecture.drawio.png)
 
-* `Data Flow` ![alt text](https://github.com/deepakshradha/SQL/blob/main/sql%20data%20warehouse%20project/docs/data%20flow%20diagram.drawio.png)
+* `Data Flow` ![alt text](https://github.com/deepakshradha/SQL/blob/main/SQL%20Data%20Warehouse%20%26%20Analysis/docs/data%20flow%20diagram.drawio.png)
 
 
 ## ⭐️ Data Modeling: Star Schema
@@ -42,9 +42,9 @@ Contain descriptive attributes (customer name, product category, etc).
 
 These are used to filter, group, and segment the data in reports.
 
-* `Data Mart(star_schema)` ![alt text](https://github.com/deepakshradha/SQL/blob/main/sql%20data%20warehouse%20project/docs/Data%20Mart.drawio.png)
+* `Data Mart(star_schema)` ![alt text](https://github.com/deepakshradha/SQL/blob/main/SQL%20Data%20Warehouse%20%26%20Analysis/docs/Data%20Mart.drawio.png)
 
-* `Intregation Model` ![alt text](https://github.com/deepakshradha/SQL/blob/main/sql%20data%20warehouse%20project/docs/integration%20model.drawio.png) 
+* `Intregation Model` ![alt text](https://github.com/deepakshradha/SQL/blob/main/SQL%20Data%20Warehouse%20%26%20Analysis/docs/integration%20model.drawio.png) 
   
 
 
